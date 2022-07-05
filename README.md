@@ -4,7 +4,7 @@
 
 ### Data Structures
 
-1. Arrays: in python it is kind of list defined by [], hetergeneous memory location unlike other programming languages. But python makes it contiguous by saving the memory reference of the array element in the array instead of saving the element itself.
+1. Arrays: in python it is kind of list defined by [], heterogeneous memory location unlike other programming languages. But python makes it contiguous by saving the memory reference of the array element in the array instead of saving the element itself.
 2. Say, 'a' in ['a', 'b', 'c'] code does a Linear Search operation. If sorted then we could have run binary search but that incurs a cost again. So, languages mainly focuses on linear search operations if the array is small.
 3. Specific Data Structures can solve specific problems. We can create our own data structures.
 4. Say arrays: pretty good at accessing because O(1). But bad at inserting and deleting which is O(N)
