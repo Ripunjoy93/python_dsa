@@ -18,7 +18,7 @@ def rotated_list_locate_number(rot_list, num):
     Search the index in the list
 
     Args:
-        rot_list (Lint): _description_
+        rot_list (List): _description_
         num (int): _description_
 
     Returns:
@@ -80,7 +80,6 @@ def rotated_list_locate_number(rot_list, num):
     if len(rot_list) > 0:
         check = False
         if res == -1:
-            print(rot_list)
             sorted_list_asc = rot_list
         else:
             list1 = rot_list[:res]

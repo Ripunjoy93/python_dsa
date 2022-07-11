@@ -119,6 +119,9 @@ print(f"Max height of the tree: {tree_max_height(tree)}\n")
 
 
 def tree_size(node):
+    """
+    Complexity O(2^N)
+    """
     if node is None:
         return 0
     else:

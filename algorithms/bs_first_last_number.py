@@ -47,6 +47,10 @@ def find_last_position(sorted_list_asc, number):
 
 
 def find_first_last_position(sorted_list_asc, number):
+    """
+    Time complexity O(log N)
+    2 times log N: can remove the constant
+    """
     return (find_first_position(sorted_list_asc, number), find_last_position(sorted_list_asc, number))
 
 

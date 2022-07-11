@@ -1,9 +1,9 @@
 """
 Linear data structure where each element in the list contained in a separate object called Node
-- Node: models 2 pieces of info, an individual item that we want to store & a reference to the next Node in the list. Self referencial objects
+- Node: models 2 pieces of info, an individual item that we want to store & a reference to the next Node in the list. Self referential objects
 - First node in the list is HEAD of the list (list keeps reference to the HEAD)
 - Last node is TAIL (in some implementations it keeps reference to tail also)
-- Two forms: Singly Linked List (refernce to next node) & Doubly Linked List having reference to Node of both before & after
+- Two forms: Singly Linked List (reference to next node) & Doubly Linked List having reference to Node of both before & after
 """
 
 class Node:

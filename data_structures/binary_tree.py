@@ -1,9 +1,7 @@
-"""
-Implementation of Binary tree in python
-"""
-
-
 class BinaryTreeNode:
+    """
+    Implementation of Binary tree in python
+    """
     def __init__(self, key):
         self.key = key
         self.left = None

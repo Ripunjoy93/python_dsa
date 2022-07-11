@@ -59,6 +59,9 @@ def is_balanced(node):
 
 
 def make_balanced_bst(data, lo=0, hi=None, parent=None):
+    """
+    Time Complexity ??
+    """
     if hi is None:
         hi = len(data) - 1
     if lo > hi:

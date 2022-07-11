@@ -52,7 +52,7 @@ class TreeNode():
 
     def to_tuple(self):
         """
-        Conver Tree to tuple format
+        Convert Tree to tuple format
         """
         if self is None:
             return None

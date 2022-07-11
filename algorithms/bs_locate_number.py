@@ -6,7 +6,7 @@ from utils.test_utils import evaluate_test_cases
 
 def locate_number(sorted_list_desc, number):
     """
-    Given a list of numbers, we need to return the index of matching numbers
+    Given a list of sorted numbers, we need to return the index of matching numbers
     Args:
         sorted_list_desc (List): integer list in descending order
             - can be empty

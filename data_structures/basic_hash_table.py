@@ -22,6 +22,9 @@ def get_index(data_list, a_string):
 
 
 class BasicHashTable:
+    """
+    It's a key value pair
+    """
     def __init__(self, max_size=MAX_HASH_TABLE_SIZE):
         # 1. Create a list of size `max_size` with all values None
         self.data_list = [None] * max_size

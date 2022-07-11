@@ -28,6 +28,9 @@ def find_num_rotations(rot_list):
     """
     last_index = len(rot_list) - 1
     def condition(mid):
+        """
+        Time complexity is again O(log N)
+        """
         if mid > 0 and rot_list[mid-1] > rot_list[mid]:
             return "found"
         elif rot_list[mid] > rot_list[last_index]:
