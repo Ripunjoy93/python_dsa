@@ -66,10 +66,10 @@ display_keys(tree)
 
 def traverse_in_order(node):
     """
-    Traverse the left subtree recursively inorder.
+    Traverse the left subtree recursively in-order.
     Traverse the current node.
-    Traverse the right subtree recursively inorder.
-    Here firest in the list will be left side then the middle and the the right side
+    Traverse the right subtree recursively in-order.
+    Here first in the list will be left side then the middle and the the right side
     """
     if node is None:
         return []
@@ -95,8 +95,8 @@ print(f"Pre-order traversal: {traverse_pre_order(tree)}\n")
 
 def traverse_post_order(node):
     """
-    Traverse the left subtree recursively preorder.
-    Traverse the right subtree recursively preorder.
+    Traverse the left subtree recursively pre-order.
+    Traverse the right subtree recursively pre-order.
     Traverse the current node.
     """
     if node is None:
